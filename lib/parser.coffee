@@ -116,7 +116,7 @@ module.exports.parseDir = (docsDir, additionalDOMParsers = []) -> new Promise ->
     buildChain = new PromiseChain
     
     # Find all .md files
-    buildChain.add Saiga.find.byName docsDir, '\*.md'
+    buildChain.add Saiga.find.byName docsDir, '\\*.md'
     
     # Then read each one and parse the markdown
     buildChain.addDeferred readFiles docsDir
