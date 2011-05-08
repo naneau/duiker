@@ -1,0 +1,23 @@
+{
+  "author": "Maurice Fonk <duiker@naneau.net> (http://naneau.net/)",
+  "name": "Duiker",
+  "description": "A markdown based web server",
+  "version": "0.0.1",
+  "homepage": "http://naneau.net/",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "test": "cake test"
+  },
+  "engines": {
+    "node": ">=0.4.5"
+  },
+  "dependencies": {
+    "markdown":       "*",
+    "optimist":       "*",
+    "jquery":     "*",
+    "jsdom":     ">=0.2"
+  },
+  "devDependencies": {}
+}
